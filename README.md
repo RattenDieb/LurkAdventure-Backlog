@@ -2,49 +2,31 @@
 
 Öffentlicher Entwicklungs-Backlog für **LurkAdventure**.
 
-Dieses Repository ist die zentrale Issue-Sammlung für Bugs, Features, Architekturthemen und spätere Vorhaben. Die tägliche Arbeitsübersicht soll über ein **GitHub Project Board** erfolgen.
+Dieses Repository enthält die Issues für Bugs, Features, Architekturthemen und spätere Vorhaben. Die tägliche Arbeitsübersicht erfolgt über das **GitHub Project Board**.
 
-> Sensible Betriebsdaten, Zugangsdaten, Secrets, private URLs, persönliche Daten oder konkrete vertrauliche Infrastrukturinformationen gehören nicht in dieses Repository.
+## Dokumentation
 
-## Wo finde ich was?
+Die dauerhafte Dokumentation für Backlog, Board, Prioritäten, Bereiche und Arbeitsweise liegt im **[GitHub Wiki](https://github.com/RattenDieb/LurkAdventure-Backlog/wiki)**.
 
-- **Issues** — einzelne Bugs, Features und technische Vorhaben
-- **GitHub Project `LurkAdventure Backlog`** — Arbeitsboard und Status der Issues
-- [`docs/BOARD.md`](docs/BOARD.md) — Aufbau, Spalten, Views und Automatisierung des Boards
-- [`docs/WORKFLOW.md`](docs/WORKFLOW.md) — Regeln für Issues, Prioritäten, Bereiche und Abhängigkeiten
+Das Wiki ist die **Source of Truth für Prozess- und Strukturdokumentation**. Im Repository selbst bleiben nur Dateien, die für GitHub-Funktionen erforderlich oder als kurzer Einstieg sinnvoll sind, insbesondere diese README und die Issue-Templates.
 
-## Grundstruktur
+> Sensible Betriebsdaten, Zugangsdaten, Secrets, private URLs, persönliche Daten oder konkrete vertrauliche Infrastrukturinformationen gehören weder in öffentliche Issues noch ins öffentliche Wiki.
 
-Jedes offene Issue erhält:
+## Zuständigkeiten
 
-1. einen **Typ**, normalerweise eines der vorhandenen GitHub-Labels wie `bug`, `enhancement` oder `documentation`
-2. **genau eine Priorität**: `P0`, `P1`, `P2` oder `P3`
-3. **mindestens einen Bereich** über `area: ...`
+- **Issues** — konkrete Bugs, Features und technische Vorhaben
+- **Project Board** — Arbeitsstatus und tägliche Übersicht
+- **Labels** — Typ, Priorität und betroffene Bereiche
+- **Wiki** — Regeln, Struktur und dauerhafte Projektdokumentation
+- **README** — kurzer Einstieg und Wegweiser
 
-Der **Arbeitsstatus** wird im GitHub Project gepflegt und nicht dauerhaft über Labels dupliziert.
+## Grundregeln
 
-### Prioritäten
+- `P0` ist ausschließlich für dringende Bugs reserviert.
+- Jedes offene Issue erhält genau eine Priorität und mindestens ein `area:`-Label.
+- Der Arbeitsstatus wird im Project Board gepflegt, nicht dauerhaft parallel über Labels.
+- Keine neuen WP-/TODO-Dateien als zweites Planungssystem.
+- Thematische Verwandtschaft ist keine Abhängigkeit; nur echte Blocker verlinken.
+- Keine Bereichspräfixe wie `[WEB]` oder `[CORE]` im Issue-Titel; dafür existieren Labels.
 
-- `P0` — ausschließlich dringende Bugs
-- `P1` — aktuell oder als Nächstes relevant
-- `P2` — Later; geplant, aber aktuell nicht dran
-- `P3` — Parked, Sideproject oder langfristige Idee
-
-### Bereiche
-
-Aktuell vorgesehen sind unter anderem:
-
-`area: global`, `area: core`, `area: studio`, `area: web`, `area: gameserver`, `area: legacy`, `area: streamer`, `area: twitch`, `area: cardstudio`, `area: cardgame`, `area: tools`, `area: obs`, `area: auth` und `area: repo`.
-
-Ein Issue darf mehrere Bereiche betreffen.
-
-## Wichtigste Regeln
-
-- Keine Bereichspräfixe wie `[WEB]` oder `[CORE]` im Titel; dafür gibt es Labels.
-- Keine neuen WP-/TODO-Dateien als paralleles Planungssystem.
-- Thematische Verwandtschaft ist keine Abhängigkeit. Nur echte Blocker verlinken.
-- Große Sammel-Issues nur kurzfristig für Triage verwenden und anschließend auflösen.
-- QA-/Abnahme-Checklisten werden nicht automatisch zu Issues. Erst ein reproduzierbarer Fehler wird zum Bug-Issue.
-- `P0` wird nicht für Features, Architektur oder allgemeine Wichtigkeit verwendet.
-
-Weitere Details stehen in [`docs/WORKFLOW.md`](docs/WORKFLOW.md).
+Die ausführlichen Regeln und die Board-Konfiguration gehören ins Wiki.
