@@ -26,10 +26,14 @@ Was passiert aktuell?
 
 ## Bereich
 
-Betroffener Bereich, z. B. Core, Studio, Web, Streamer, CardGame oder anderer Teil.
+Betroffener Bereich, z. B. Core, Studio, Web, Streamer oder ein anderer Teil.
+
+## Umgebung / Version
+
+Nur angeben, soweit für die Reproduktion relevant und öffentlich unkritisch.
 
 ## Zusatzinfos
 
-Nur öffentlich unkritische Informationen ergänzen. Keine Secrets, Zugangsdaten, privaten URLs, persönlichen Daten oder sensiblen Betriebsdetails posten.
+Screenshots, Logs oder weitere Hinweise nur ergänzen, wenn sie keine vertraulichen Daten enthalten.
 
-> Priorität und `area:`-Labels werden bei der Triage gesetzt. `P0` ist ausschließlich für wirklich dringende Bugs reserviert.
+> Priorität und `area:`-Labels werden bei der Triage gesetzt. `P0` ist ausschließlich für tatsächlich dringende Bugs reserviert. Der Arbeitsstatus wird im GitHub Project gepflegt.
