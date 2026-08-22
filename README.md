@@ -4,6 +4,18 @@
 
 Dieses Repository enthält Planung, Bugs, Features und technische Vorhaben. Sensible Betriebsdaten, Zugangsdaten, Secrets, private URLs oder persönliche Daten gehören **nicht** in dieses Repository.
 
+## Schnellzugriff
+
+- [Ready / als Nächstes](https://github.com/RattenDieb/LurkAdventure-Backlog/issues?q=is%3Aissue+state%3Aopen+label%3A%22status%3A+ready%22)
+- [P0 – dringende Bugs](https://github.com/RattenDieb/LurkAdventure-Backlog/issues?q=is%3Aissue+state%3Aopen+label%3AP0)
+- [P1 – aktuelle / nächste Arbeit](https://github.com/RattenDieb/LurkAdventure-Backlog/issues?q=is%3Aissue+state%3Aopen+label%3AP1)
+- [P2 – Later](https://github.com/RattenDieb/LurkAdventure-Backlog/issues?q=is%3Aissue+state%3Aopen+label%3AP2)
+- [P3 – Parked](https://github.com/RattenDieb/LurkAdventure-Backlog/issues?q=is%3Aissue+state%3Aopen+label%3AP3)
+- [Web](https://github.com/RattenDieb/LurkAdventure-Backlog/issues?q=is%3Aissue+state%3Aopen+label%3A%22area%3A+web%22)
+- [Core](https://github.com/RattenDieb/LurkAdventure-Backlog/issues?q=is%3Aissue+state%3Aopen+label%3A%22area%3A+core%22)
+- [Studio](https://github.com/RattenDieb/LurkAdventure-Backlog/issues?q=is%3Aissue+state%3Aopen+label%3A%22area%3A+studio%22)
+- [Gameserver](https://github.com/RattenDieb/LurkAdventure-Backlog/issues?q=is%3Aissue+state%3Aopen+label%3A%22area%3A+gameserver%22)
+
 ## Struktur
 
 Jedes offene Issue erhält mindestens:
